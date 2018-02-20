@@ -15,10 +15,28 @@ whos_that = "pokemon"
 
 points = 50
 
+pokelist = list(pokedex.pokelist)
+
+async def startTimer():
+	global points
+
+	while points > 1:
+		asyncio.sleep(1)
+		points += -1
+
+	await pokebot.say('Uh oh! All out of time!')
+	tell()
+
 @pokebot.command()
 async def who():
-	index = randint(1, 151)
-	pokemon = pokedex.pokelist[index]
+	global pokelist
+
+	remaining = len(pokelist)
+	if remaining < 2:
+		pokelist = pokedex.pokelist.copy()
+
+	index = randint(1, len(pokelist))
+	pokemon = pokelist[index]
 	global whos_that 
 	whos_that = pokemon
 	print("Pokemon : {}".format(pokemon), "\n\nWho's that Pokemon? --> {}".format(whos_that))
@@ -26,8 +44,7 @@ async def who():
 	hint = entry
 	await pokebot.say(hint)
 
-	while points > 1:
-		asyncio.sleep()
+	pokelist.remove(pokemon)
 
 @pokebot.command()
 async def its(answer):
