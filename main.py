@@ -47,7 +47,12 @@ async def who():
 	pokelist.remove(pokemon)
 
 @pokebot.command()
-async def its(answer):
+async def its(*answer):
+	trueInput = ''
+	for part in answer:
+		trueInput += part
+	answer = trueInput
+
 	correct = "{} is correct!".format(answer)
 	incorrect = "{} is not the pokemon we're looking for.".format(answer)
 
