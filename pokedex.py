@@ -31,7 +31,7 @@ entries = {"Bulbasaur" : "A strange seed was planted on its back at birth. The p
 	"Venusaur" : "The plant blooms when it's absorbing solar energy. It stays on the move to seek sunlight. The flower on its back catches the suns rays. The sunlight is then absorbed and used for energy",
 	"Charmander" : "Obviously prefers hot places. When it rains, steam is said to spout from the top of its tail. The flame at the tip of its tail makes a sound as it burns. You cna only hear it in quiet places.",
 	"Charmeleon" : "When it swings its burning tail, it elevates the temperature to unbearbly high levels. Tough fights could excite this Pokemon. When excited, it may blow out bluish-white flames.",
-	"Charizard" : "Spits fire that is hot enought o melt boulders. Known to cause forest fires unintentionally. When expelling a blast of super hot fire, the red flame at the tip of its tail burns more intensely.",
+	"Charizard" : "Spits fire that is hot enough to melt boulders. Known to cause forest fires unintentionally. When expelling a blast of super hot fire, the red flame at the tip of its tail burns more intensely.",
 	"Squirtle" : "After birth, its backswells ahnd hardens into a shell. Powerfully sprays foam from its mouth. Shoots water at prey while in the water. Withdraws into its shell when in danger.",
 	"Wartortle" : "ften hides in water to stalk unwary prey. For swimming fast, it moves its ears to maintain balance. When trapped, this Pokemon will pull in its head, but its tail will still stick out a little bit.",
 	"Blastoise" : "A brutal Pokemon with pressurized water jets. They are used for high speed tackles. Once it takes aim at its enemy, it blasts out water with even more force than a fire hose.",
