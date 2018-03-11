@@ -1,4 +1,6 @@
-pokelist = ("POKEMON :", "Bulbasaur", "Ivysaur", "Venusaur", "Charmander", "Charmeleon", "Charizard", "Squirtle", "Wartortle", "Blastoise",
+regions = {"kanto":kanto, "johto":johto}
+
+kanto = ("Bulbasaur", "Ivysaur", "Venusaur", "Charmander", "Charmeleon", "Charizard", "Squirtle", "Wartortle", "Blastoise",
 	"Caterpie", "Metapod", "Butterfree", "Weedle", "Kakuna", "Beedrill", "Pidgey", "Pidgeotto", "Pidgeot", "Rattata", "Raticate",
 	"Spearow", "Fearow", "Ekans", "Arbok", "Pikachu", "Raichu", "Sandshrew", "Sandslash", "Nidoran F", "Nidorina", "Nidoqueen",
 	"Nidoran M", "Nidorino", "Nidoking", "Clefairy", "Clefable", "Vulpix", "Ninetales", "Jigglypuff", "Wigglytuff", "Zubat", 
@@ -12,6 +14,17 @@ pokelist = ("POKEMON :", "Bulbasaur", "Ivysaur", "Venusaur", "Charmander", "Char
 	"Starmie", "Mr. Mime", "Scyther", "Jynx", "Electrabuzz", "Magmar", "Pinsir", "Tauros", "Magikarp", "Gyarados", "Lapras", "Ditto",
 	"Eevee", "Vaporeon", "Jolteon", "Flareon", "Porygon", "Omanyte", "Omastar", "Kabuto", "Kabutops", "Aerodactyl", "Snorlax",
 	"Articuno", "Zapdos", "Moltres", "Dratini", "Dragonair", "Dragonite", "Mewtwo", "Mew")
+
+johto = ("Chikorita", "Bayleef", "Meganium", "Cyndaquil", "Quilava", "Typhlosion", "Totodile", "Croconaw", "Feraligatr",
+	"Sentret", "Furret", "Hoothoot", "Noctowl", "Ledyba", "Ledian", "Spinarak", "Ariados", "Crobat", "Chinchou", "Lanturn",
+	"Pichu", "Cleffa", "Igglybuff", "Togepi", "Togetic", "Natu", "Xatu", "Mareep", "Flaaffy", "Ampharos", "Bellossom", "Marill",
+	"Azumarill", "Sudowoodo", "Politoed", "Hoppip", "Skiploom", "Jumpluff", "Aipom", "Sunkern", "Sunflora", "Yanma", "Wooper",
+	"Quagsire", "Espeon", "Umbreon", "Murkrow", "Slowking", "Misdreavus", "Unown", "Wobbuffet", "Girofarig", "Pineco", "Forretress",
+	"Dunsparce", "Gilgar", "Steelix", "Snubbull", "Granbull", "Qwilfish", "Scizor", "Shuckle", "Heracross", "Sneasel", "Teddiursa",
+	"Urasing", "Slugma", "Magcargo", "Swinub", "Piloswine", "Corsola", "Remoraid", "Octillery", "Delibird", "Mantine", "Skarmory",
+	"Houndour", "Houndoom", "Kingdra", "Phanpy", "Donphan", "Porygon2", "Stantler", "Smeargle", "Tyrogue", "Hitmontop", "Smoochum",
+	"Elekid", "Magby", "Miltank", "Blissey", "Raikou", "Entei", "Suicune", "Lavitar", "Pupitar", "Tyranitar", "Lugia", "Ho-Oh", 
+	"Celebi")
 
 entries = {"Bulbasaur" : "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon. It can go for days without a single morsel. In the bulb on its back, it stores energy.",
 	"Ivysaur" : "When the bulb on its back grows large, it appears to lose the ability to stand on its hind legs. The bulb on its back growsby drawing energy. It gives off an aroma when it's ready to bloom.",
